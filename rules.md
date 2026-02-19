@@ -1,0 +1,3 @@
+# Beyond The Horizon Discord Rules
+
+Under construction....
