@@ -18,7 +18,7 @@
   </main>
 
   <footer class="site-footer">
-    Beyond The Horizon &mdash; Community Discord &nbsp;&bull;&nbsp;
+    <a href="https://discord.com/guidelines" target="_blank" rel="noopener noreferrer">Community Guidelines</a>
     <a href="https://discord.com/terms" target="_blank" rel="noopener noreferrer">Discord ToS</a>
   </footer>
 
@@ -32,16 +32,7 @@
       .then(function(md) {
         document.getElementById('rules-content').innerHTML = marked.parse(md);
       })
-      .catch(function(err) {
-        document.getElementById('rules-content').innerHTML =
-          '<div class="error-msg">' +
-          '<strong>Could not load rules.</strong><br>' +
-          'If you are opening this file directly, please serve it with a local HTTP server:<br>' +
-          '<code>python3 -m http.server 8080</code><br>' +
-          'Then visit <code>http://localhost:8080</code>.<br><br>' +
-          '<em>Error: ' + err.message + '</em>' +
-          '</div>';
-      });
+      .catch(function() {});
   </script>
 
 </body>
