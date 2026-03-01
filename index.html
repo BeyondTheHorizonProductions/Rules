@@ -15,6 +15,7 @@
     <article id="rules-content" class="rules-panel">
       <p class="loading-msg">Loading rules&hellip;</p>
     </article>
+    <p id="last-updated" class="last-updated"></p>
   </main>
 
   <footer class="site-footer">
@@ -32,6 +33,15 @@
       })
       .then(function(md) {
         document.getElementById('rules-content').innerHTML = marked.parse(md);
+      })
+      .catch(function() {});
+
+    fetch('https://api.github.com/repos/BeyondTheHorizonProductions/Rules/commits?per_page=1')
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        var date = new Date(data[0].commit.committer.date);
+        var formatted = date.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+        document.getElementById('last-updated').textContent = 'Last updated ' + formatted;
       })
       .catch(function() {});
   </script>
