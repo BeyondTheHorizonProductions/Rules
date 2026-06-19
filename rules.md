@@ -28,8 +28,9 @@ Unless specified otherwise in the channel description, no other languages are al
 **7 — Do not Find Loopholes in the Rules**
 Intentionally bending the rules or trying to find loopholes is not allowed. Not every rule is clear-cut and perfectly defined, so avoid trying to prove otherwise.
 
-
-
+<br>
+<br>
+<br>
 
 **Moderation Scope**
 
