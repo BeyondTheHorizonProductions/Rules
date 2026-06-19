@@ -38,12 +38,15 @@ Our moderation only covers conduct that takes place within this Discord server; 
 - Child exploitation: https://report.cybertip.org/
 - Malicious websites: https://www.cloudflare.com/trust-hub/reporting-abuse/
 
+<br>
 
 **Mini-Modding**
 
 Mini-modding (or backseat moderating) is correcting someone's behaviour when you are not a moderator. This behaviour is not allowed and will be punished under "4 — Do not Spam / Be a Nuisance".
 If you want to report someone for breaking the rules, please use the report functionality (/report) or create a Discord Moderation Ticket.
 Disagreeing/Debating/Arguing with a staff member's approach also falls under this section; use the information below to report the issue.
+
+<br>
 
 **Staff Abuse**
 
