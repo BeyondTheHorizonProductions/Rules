@@ -29,6 +29,8 @@ Unless specified otherwise in the channel description, no other languages are al
 Intentionally bending the rules or trying to find loopholes is not allowed. Not every rule is clear-cut and perfectly defined, so avoid trying to prove otherwise.
 
 
+
+
 **Moderation Scope**
 
 Our moderation only covers conduct that takes place within this Discord server; we cannot reliably verify what happens in other communities and are therefore unable to punish for those instances. You could use Discord's built-in report system or the links below to report these situations to organisations that can act on your report.
